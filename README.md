@@ -209,4 +209,246 @@ fun main() {
 }
 ```
 
+---
 
+## Exercício 16. Aumento de Salário 💰
+```
+fun main() {
+	var salario = 1000.0
+    var porcentagem = 10.0
+    val aumento = salario * (porcentagem / 100.0)
+    val novo_salario = salario + aumento
+    print("Novo salário: $novo_salario, Aumento concedido: $aumento")
+}
+```
+
+---
+
+## Exercício 17. Área de Circunferência 🛞
+```
+fun main() {
+	fun main() {
+	var raio = 5.0
+    val area = 3.14 * raio * raio
+    print(area)
+}
+```
+
+---
+
+## Exercício 19. Cáculo Operações Básicas 🧮
+```
+fun main() {
+	var n1 = 10.0
+    var n2 = 5.0
+    
+    val soma = n1 + n2
+    val sub = n1 - n2
+    val multi = n1 * n2
+    val div = n1 / n2
+    
+    println("Adição: $n1 + $n2 = $soma")
+    println("Subtração: $n1 - $n2 = $sub")
+    println("Multiplicação: $n1 x $n2 = $multi")
+    println("Divisão: $n1 / $n2 = $div")
+}
+```
+
+---
+
+## Exercício 20. Velocidade de um Projétil ☄️
+```
+fun main() {
+	var distancia = 200.0
+    var tempo = 4.0
+    
+    val velocidade = distancia / tempo / 3.6
+    
+    print("Velocidade: $velocidade m/s")
+}
+```
+
+---
+
+## Exercício 21. Cáculo Potência 🔢
+```
+fun main() {
+	var base = 2.0
+    var expoente = 3.0
+    
+    val resultado = (Math.pow(base, expoente))
+    print(resultado)
+}
+```
+
+---
+
+## Exercício 22. Volume da Esfera ⚽
+```
+fun main() {
+	var raio = 5.0
+    
+    val volume = (4.0/3.0)* 3.14 * (Math.pow(raio, 3.0))
+    print(volume)
+}
+```
+
+---
+
+## Exercício 23. Pés para Metros 👣
+```
+fun main() {
+	var pes = 10
+    
+    val metros = pes* 0.3048
+    print(metros)
+}
+```
+
+---
+
+## Exercício 24. Cáuculo Raiz Quadrada 🫚
+```
+fun main() {
+	var base = 16.0
+    var indice = 2.0
+    
+    val raiz = Math.pow(base, 1.0/indice)
+    print(raiz)
+}
+```
+
+---
+
+## Exercício 25. Sucessor e Antecessor 👶👴
+```
+fun main() {
+	var numero = 5
+    
+    val sucessor = numero - 1
+    val antecessor = numero + 1
+    
+    print("Sucessor: $sucessor, Antecessor: $antecessor")
+}
+```
+
+---
+
+## Exercício 26. Quadrado da Divisão de Dois Números Inteiros ➗
+```
+fun main() {
+	var n1 = 10.0
+    var n2 = 2.0
+    
+    val div = n1/n2
+    val quad = Math.pow(div, 2.0)
+    
+    print(quad)
+}
+```
+
+---
+
+## Exercício 27. Diferença entre Dois Números Inteiros 🤓
+```
+fun main() {
+	var n1 = 10.0
+    var n2 = 5.0
+    
+    val diferenca:Double
+    
+    if(n1 > n2){
+        diferenca = n1 - n2
+    } else {
+        diferenca = n2 - n1
+    }
+    print(diferenca)
+}
+```
+
+---
+
+## Exercício 28. Positivo ou Negativo 📊
+```
+fun main() {
+	var numero = -5
+    
+    if (numero > 0) {
+    	print("Positivo")
+    } else if (numero < 0){
+        print("Negativo")
+    } else {
+        print("Neutro")
+    }
+}
+```
+
+---
+
+## Exercício 29. Média e Verificação de Aprovação ✅
+```
+fun main() {
+	var n1 = 7.0
+    var n2 = 6.0
+    var n3 = 4.0
+    var n4 = 5.0
+    
+    val media = (n1 + n2 + n3 + n4)/4.0
+    if (media >= 5.0) {
+        print("Média: $media, Aprovado")
+    } else {
+        print("Média: $media, Reprovado")
+    }
+}
+```
+
+---
+
+## Exercício 30. Média e Verificação de Aprovação com Exame 🧾
+```
+fun main() {
+	var n1 = 6.0
+    var n2 = 7.0
+    var n3 = 5.0
+    var n4 = 8.0
+    
+    val media = (n1 + n2 + n3 + n4)/4.0
+    if (media > 7.0) {
+        print("Média: $media, Aprovado")
+    } else if (media >= 5.0) {
+        print("Média: $media, Exame")
+    } else {
+        print("Média: $media, Reprovado")
+    }
+}
+```
+
+---
+
+## Exercício 32. Ordenação de Três Números 🔢
+```
+fun main() {
+	var n1 = 5
+    var n2 = 2
+    var n3 = 7
+    var temp:Int
+    
+    if (n1 > n2){
+        temp = n1
+        n1 = n2
+        n2 = temp
+    } else if (n1 > n3){
+        temp = n1
+        n1 = n3
+        n3 = temp
+    } else if (n2 > n3) {
+        temp = n2
+        n2 = n3
+        n3 = temp
+    } else {
+        print("Error")
+    }
+    
+    print("$n1, $n2, $n3")
+}
+```
